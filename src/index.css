@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.card-template-1 {
+  @apply bg-white p-6 rounded-lg shadow-lg relative;
+  width: 400px;
+  height: 250px;
+}
+
+.card-template-2 {
+  @apply bg-gradient-to-r from-blue-500 to-purple-500 p-6 rounded-lg shadow-lg relative text-white;
+  width: 400px;
+  height: 250px;
+}
+
+.photo-preview {
+  @apply w-32 h-32 object-cover rounded-lg shadow-md;
+}
+
+.photo-preview-2 {
+  @apply w-24 h-24 object-cover rounded-full border-4 border-white shadow-lg;
+}
+
+.template-button {
+  @apply flex flex-col items-center p-4 border-2 rounded-lg transition-colors;
+}
+
+.template-button-preview {
+  @apply w-32 h-20 rounded shadow-sm flex items-center justify-center mb-2;
+}
